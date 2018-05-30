@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.opciones button{
+	margin: 10px;
+	width: 40px;
+}
+
+.activo{
+	background-color: #3AC3FF;
+}
+
+#logo{
+	padding: 4px;
+}

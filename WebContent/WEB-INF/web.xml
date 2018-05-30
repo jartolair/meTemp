@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.4">
+  <display-name>Servlets ejemplo</display-name>
+  <description>
+     Servlets de ejemplo para practicar
+  </description>
+  <servlet>
+    <servlet-name>PerfilUsuario</servlet-name>
+    <servlet-class>controlador.PerfilUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PerfilUsuario</servlet-name>
+    <url-pattern>/PerfilUsuario</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>EditarPublicacion</servlet-name>
+    <servlet-class>controlador.EditarPublicacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarPublicacion</servlet-name>
+    <url-pattern>/EditarPublicacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CambiarPublicacion</servlet-name>
+    <servlet-class>controlador.CambiarPublicacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CambiarPublicacion</servlet-name>
+    <url-pattern>/CambiarPublicacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>VotarPublicacion</servlet-name>
+    <servlet-class>controlador.VotarPublicacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VotarPublicacion</servlet-name>
+    <url-pattern>/VotarPublicacion</url-pattern>
+  </servlet-mapping>
+</web-app>
